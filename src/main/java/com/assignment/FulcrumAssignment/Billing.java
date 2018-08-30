@@ -85,8 +85,6 @@ public class Billing {
 
     public Map<String, Double> getUserDefinedItem() {
         basketItem = new LinkedHashMap<String, Double>();
-        Double finalPrice = null;
-        String item = "";
         int number = 0;
 // no of item in the basket:
         try {
@@ -98,7 +96,9 @@ public class Billing {
         }
 // get item details:
         for (int i = 1; i <= number; i++) {
-
+        	 Double finalPrice = 0.0;
+             String item = "";
+            
             try {
 // get Item detail:
                 System.out.println("Enter name of your Item number  " + i + ":");

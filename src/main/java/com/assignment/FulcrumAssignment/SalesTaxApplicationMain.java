@@ -24,7 +24,7 @@ public class SalesTaxApplicationMain {
         System.out.println("4. to customize your basket");
         Billing b = new Billing();
         Scanner sc = new Scanner(System.in);
-//BufferedReader  BufferReader= new BufferedReader(new InputStreamReader(System.in));
+
         int basketNumber = b.getBasketNumber(sc);
 
         Map<String, Double> basket = b.intialiseBasketItem(basketNumber);

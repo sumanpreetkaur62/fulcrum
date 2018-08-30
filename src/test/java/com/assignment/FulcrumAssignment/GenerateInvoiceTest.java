@@ -23,6 +23,7 @@ public class GenerateInvoiceTest {
 	static Map<String, Double> expectedOutputOfBasket3;
 	static Map<String, Double> expectedOutputOfBasket2;
 	static Map<String, Double> expectedOutputOfBasket1;
+	
 	private Billing billingTestObject;
 	public Map<String, Double> inputBasket;
 	public Map<String, Double> expectedBasket;
