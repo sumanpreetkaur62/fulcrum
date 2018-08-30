@@ -1,4 +1,6 @@
-# fulcrum
+# fulcrum 
+Instruction to Run the project
+
 Main Class::
 After cloning the project follow below steps to run:
 1. Run com.assignment.FulcrumAssignment.SalesTaxApplicationMain
@@ -9,5 +11,4 @@ you can run from the below path
 1. com.assignment.FulcrumAssignment.GenerateInvoiceTest
 2. com.assignment.FulcrumAssignment.InitializeBasketTest
 3. com.assignment.FulcrumAssignment.SalesTaxApplicationTest
-
 
