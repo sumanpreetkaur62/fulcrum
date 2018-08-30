@@ -8,12 +8,10 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Billing {
-
     Map<String, Double> basketItem;
     String[] exemptedGoods = { "book", "chocolate", "pills", "exempted" };
     int basketNumber;
     Scanner sc;
-
     /*
      * Handles the exception if user input invalid value. and ask user to enter
      * correct value.
@@ -33,7 +31,6 @@ public class Billing {
         return basketNumber;
 
     }
-
     /*
      * initiating the basketItem hash map with items and price according to the user
      * input
